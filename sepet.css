@@ -1,0 +1,26 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right, #3ee80f, #f9f9f9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sepet-urun-kategorileme{
+    margin-bottom: 2rem;
+}
+.sepet-urun-kategorileme h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.sepet-urun-kategorileme h1+div {
+    font-size: calc(1rem * .8);
+    opacity: .8;
+}
+
+.btn_container{
+margin-bottom: 2rem;
+font-size: medium;
+}
